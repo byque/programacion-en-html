@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Enlaces en HTML</title>
+		<style>
+			a:link		{color:green; background-color:transparent; text-decoration:none}
+			a:visited	{color:pink; background-color:transparent; text-decoration:none}
+			a:hover		{color:red; background-color:transparent; text-decoration:underline}
+			a:active	{color:yellow; background-color:transparent; text-decoration:underline}
+		</style>
+	</head>
+
+	<body>
+	
+		<a href="#tips">Visitar la sección de consejos útiles</a>
+
+		<h1>Colores de los Enlaces en HTML</h1>
+		<p>Cuando colocas el ratón sobre un enlace la flecha del ratón se transforma en una mano
+		y el color del enlace cambiará. Por defecto, un enlace aparecerá de color azul si no se
+		ha visitado previamente; de color morado y subrayado si ya se lo ha visitado; y un link
+		activo es de color rojo y subrayado.</p>
+		<p>Se pueden cambiar los colores por defecto usando styles.</p>
+		<a href="..\O_CSS\html_css.html">Estilizado en HTML</a>
+		
+		<h1>El Atributo target</h1>
+		<p>El atributo <b>target</b> especifica donde abrir el documento enlazado. El siguiente
+		ejemplo abrirá el documento enlazado en una nueva ventana o pestaña del navegador.</p>
+		<a href="..\O_CSS\html_css_2.html" target="_blank">Estilizado en HTML 2</a>
+		<!--Revisar target="_top" para escapar de un cuadro-->
+		
+		<h1>Imágenes como links</h1>
+		<a href="..\N_Colors\html_colors.html"><img src="smiley.gif" alt="Tutorial HTML"
+		style="width:42px;border:0"></a>
+		<p>Se añadió "border:0" para prevenir que IE9 (y anteriores) muestren un borde alrededor
+		de la imagen.</p>
+		
+		<h2>Capítulo 1</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h2>Capítulo 2</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h2>Capítulo 3</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h2>Capítulo 4</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h2>Capítulo 5</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h2>Capítulo 6</h2>
+		<p>Este capítulo explica bla bla bla</p>
+		
+		<h1>Crear un Marcador</h1>
+		<p>Los marcadores, o bookmarks, de HTML se usan para permitir que los lectores salten a
+		partes específicas de la página web. Los marcadores son prácticos si el sitio web tiene
+		páginas largas. Para hacer un marcador, primero debes crear el marcador y luego añadir
+		el link a éste. Cuando se da click en el link, la página se desplazará hasta la ubicación
+		del marcador.</p>
+		<h2 id="tips">Sección consejos útiles</h2>
+		<!--También se puede añadir el marcador desde otra página
+		<a href="html_tips.html#tips">Visitar la sección de consejos útiles</a>
+		-->
+
+	</body>
+
+</html>

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilizado con CSS en HTML</title>
+		<style>
+			h1 {
+				color: red;
+				font-family: verdana;
+				font-size: 300%;
+			}
+			p {
+				color: blue;
+				font-family: courier;
+				font-size: 160%;
+			}
+			#p01 {
+				color:green;
+			}
+			p.error {
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<h1>Fuentes de CSS</h1>
+		<p>La propiedad <b>color</b> define el color del texto del elemento HTML.</p>
+		<p>La propiedad <b>font-family</b> define la fuente usada por el elemento HTML.</p>
+		<p>La propiedad <b>font-size</b> define el tamaño del texto del elemento HTML.</p>
+		
+		<h1>El Modelo de Cuadro de CSS</h1>
+		<p>Todo elemento de HTML tiene un cuadro a su alrededor, incluso si no se ve.</p>
+		<p style="border: 1px solid black;">La propiedad <b>border</b> de CSS define un borde 
+		visible alrededor del elemento.</p>
+		<p style="border: 1px solid black; padding: 10px;">La propiedad <b>padding</b> 
+		de CSS define el espacio entre el borde y el texto.</p>
+		<p style="border: 1px solid black; padding: 10px; margin: 30px;">La propiedad
+		<b>margin</b> de CSS define el espacio entre el margen y el borde.</p>
+		
+		<h1>El Atributo id</h1>
+		<p>Para definir un estilo especial para un elemento especial primero se añade un
+		atributo id al elemento y luego se define un estilo para el elemento con la id
+		especificada.</p>
+		<p id="p01">Soy diferente</p>
+		
+		<h1>El Atributo Class</h1>
+		<p>Para definir un estilo para un tipo (class) específico de elementos, añadir
+		un atributo class al elemento.</p>
+		<p class="error">Soy una notificación de error!</p>
+		
+		<p>Usar <b>id</b> para referirse a un elemento <b>singular</b>. Usar <b>class</b>
+		para referirse a un <b>grupo</b> de elementos.</p>
+
+	</body>
+
+</html>
